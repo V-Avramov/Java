@@ -1,0 +1,117 @@
+{
+  "a": {
+    "username": "a",
+    "password": "b",
+    "loggedUsers": [],
+    "inboxTasks": {},
+    "datedTasks": {
+      "2021-02-17T00:00": [
+        {
+          "name": "just an important task",
+          "date": "2021-02-17T00:00",
+          "dueDate": "2100-12-17T00:00",
+          "description": "let us just hope that I will not forget this task",
+          "completed": false
+        }
+      ]
+    },
+    "collaborations": {
+      "team collab": {
+        "name": "team collab",
+        "users": [
+          "someUser",
+          "a"
+        ],
+        "tasks": {
+          "write your name": {
+            "name": "write your name",
+            "completed": false,
+            "asignee": "a"
+          }
+        },
+        "collabOwner": "someUser"
+      }
+    }
+  },
+  "jhgk": {
+    "username": "jhgk",
+    "password": "12341234",
+    "loggedUsers": [],
+    "inboxTasks": {},
+    "datedTasks": {},
+    "collaborations": {
+      "Uni work assignment": {
+        "name": "Uni work assignment",
+        "users": [
+          "jhgk",
+          "asdf",
+          "someUser"
+        ],
+        "tasks": {},
+        "collabOwner": "jhgk"
+      }
+    }
+  },
+  "asdf": {
+    "username": "asdf",
+    "password": "aaa",
+    "loggedUsers": [],
+    "inboxTasks": {},
+    "datedTasks": {
+      "2021-02-17T00:00": [
+        {
+          "name": "some task",
+          "date": "2021-02-17T00:00",
+          "description": "this is some task I made",
+          "completed": false
+        }
+      ]
+    },
+    "collaborations": {
+      "Uni work assignment": {
+        "name": "Uni work assignment",
+        "users": [
+          "jhgk",
+          "asdf",
+          "someUser"
+        ],
+        "tasks": {},
+        "collabOwner": "jhgk"
+      }
+    }
+  },
+  "someUser": {
+    "username": "someUser",
+    "password": "12345",
+    "loggedUsers": [],
+    "inboxTasks": {},
+    "datedTasks": {},
+    "collaborations": {
+      "Uni work assignment": {
+        "name": "Uni work assignment",
+        "users": [
+          "jhgk",
+          "asdf",
+          "someUser"
+        ],
+        "tasks": {},
+        "collabOwner": "jhgk"
+      },
+      "team collab": {
+        "name": "team collab",
+        "users": [
+          "someUser",
+          "a"
+        ],
+        "tasks": {
+          "write your name": {
+            "name": "write your name",
+            "completed": false,
+            "asignee": "a"
+          }
+        },
+        "collabOwner": "someUser"
+      }
+    }
+  }
+}
